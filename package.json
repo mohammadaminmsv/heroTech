@@ -1,0 +1,23 @@
+{
+  "name": "herotech",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.1.3",
+    "nuxt": "^4.3.1",
+    "vue": "^3.5.28",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@nuxt/icon": "^2.2.1",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "tailwindcss-rtl": "^0.9.0"
+  }
+}
