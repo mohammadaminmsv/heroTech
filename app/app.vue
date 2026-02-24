@@ -1,14 +1,13 @@
+<script setup lang="ts">
+import LoadingSpinner from './components/LoadingSpinner.vue';
+
+</script>
+
 <template>
-  <div class="min-h-screen flex flex-col bg-gray-100 font-sans" dir="rtl">
-    <header>
-      <Header />
-    </header>
-    <main>
+  <div>
+    <NuxtLayout>
       <NuxtPage />
-    </main>
-    <footer></footer>
+    </NuxtLayout>
+    <LoadingSpinner/>
   </div>
 </template>
-<script setup lang="ts">
-import Header from "./layouts/Header.vue";
-</script>

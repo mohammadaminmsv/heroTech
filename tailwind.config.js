@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import rtl from 'tailwindcss-rtl'
 export default {
   content: [
     './components/**/*.{vue,js,ts}',
@@ -12,11 +11,12 @@ export default {
     extend: {
       colors: {
         htred: '#E20054',
+        htmain:'#E9EDF5',
+        htwhite:"#FFFFFF"
       },
      fontFamily: {
-        sans: ['Vazir', 'sans-serif'],
+        sans: ["Vazir", "sans-serif"],
       },
     },
   },
-  plugins: [rtl],
 };

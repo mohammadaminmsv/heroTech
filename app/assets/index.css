@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-}
-@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css");
 
 html {
-  direction: rtl; 
-  font-family: 'Vazir', sans-serif;
+  font-family: "YekanBakh", sans-serif;
+  background-color: #e9edf5;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url("/fonnts.com-YekanBakh-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
