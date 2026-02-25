@@ -3,7 +3,7 @@
     <nav>
       <ul class="flex gap-[24px] flex-row-reverse">
         <li class="flex justify-center gap-[8px] items-center">
-          <NuxtLink to="/Product">لیست محصولات</NuxtLink>
+          <NuxtLink to="/ProductFilter">لیست محصولات</NuxtLink>
 
           <IconHT name="category-2" class="w-4 h-4" />
         </li>

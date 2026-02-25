@@ -1,13 +1,13 @@
 <template>
   <button
     :class="`${props.class} rounded-[16px] px-[16px] py-[12px] flex justify-center items-center`"
-    @click="handleClick($event)"
+    @click="func"
   >
-    <IconHT :name="`${props.iconRight}`" />
-    <span class="text-[14px]">
+    <IconHT :class="`${props.iconclass}`" :name="`${props.iconRight}`" />
+    <h1 class="text-[14px]">
       {{ props.label }}
-    </span>
-    <IconHT :name="`${props.iconLeft}`" />
+    </h1>
+    <IconHT :class="`${props.iconclass}`" :name="`${props.iconLeft}`" />
   </button>
 </template>
 <script setup lang="ts">
@@ -17,11 +17,7 @@ const props = defineProps({
   iconRight: String,
   iconLeft: String,
   class: String,
+  iconclass: String,
   func: Function as PropType<((...args: any[]) => any) | undefined>,
 });
-const handleClick = (event: MouseEvent) => {
-  if (props.func) {
-    props.func(event); 
-  }
-};
 </script>

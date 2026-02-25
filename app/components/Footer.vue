@@ -50,8 +50,8 @@
       class="bg-[#F8F9FC] h-[149px] gap-24 flex items-center justify-center px-16"
     >
       <div class="flex gap-4">
-        <img src="/picFooter1.svg" alt="enamad" class="h-[60px]" />
-        <img src="/picFooter2.svg" alt="standard" class="h-[60px]" />
+        <img src="/picFooter1.svg" alt="enamad" class="h-[80px] w-[80px]" />
+        <img src="/picFooter2.svg" alt="standard" class="h-[80px] w-[80px]" />
       </div>
 
       <div
