@@ -17,6 +17,10 @@ export default {
      fontFamily: {
         sans: ["Vazir", "sans-serif"],
       },
+       screens: {
+        'max-930': { 'max': '930px' }, 
+        'min-930': '930px',            
+      },
     },
   },
 };
